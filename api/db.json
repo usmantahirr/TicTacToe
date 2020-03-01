@@ -1,0 +1,83 @@
+{
+  "games": [
+    {
+      "id": "cc668e70-5a78-11ea-b269-cfdc5d5cf781",
+      "name": "My Board 3",
+      "board": "ooo_xxx__",
+      "state": "o_won",
+      "createdAt": 1582928546008,
+      "updatedAt": 1583026580246,
+      "combo": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "8041d210-5b50-11ea-80db-3ba2ea64a04d",
+      "name": "My Test",
+      "board": "xoxxoooxx",
+      "state": "draw",
+      "createdAt": 1583021189553,
+      "updatedAt": 1583027618812
+    },
+    {
+      "id": "a69d2a40-5b5f-11ea-a7af-037741ed20ac",
+      "name": "Test Game 4",
+      "board": "o_xo_xxox",
+      "state": "x_won",
+      "createdAt": 1583027696357,
+      "updatedAt": 1583027732964,
+      "combo": [
+        "2",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "id": "fee32060-5b5f-11ea-ae58-ed03ac7113cb",
+      "name": "Start Working",
+      "board": "ooo_xxxox",
+      "state": "o_won",
+      "createdAt": 1583027844455,
+      "updatedAt": 1583028077147,
+      "combo": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "da3250a0-5b60-11ea-980c-9bde846347a6",
+      "name": "Another Board 2",
+      "board": "_________",
+      "state": "running",
+      "createdAt": 1583028212394,
+      "updatedAt": 1583028212394
+    },
+    {
+      "id": "257bff20-5b61-11ea-980c-9bde846347a6",
+      "name": "Game with me",
+      "board": "_________",
+      "state": "running",
+      "createdAt": 1583028338706,
+      "updatedAt": 1583028338706
+    },
+    {
+      "id": "a58bb2e0-5b62-11ea-87ac-7d16fc7660e9",
+      "name": "After sort",
+      "board": "_________",
+      "state": "running",
+      "createdAt": 1583028983055,
+      "updatedAt": 1583028983055
+    },
+    {
+      "id": "b8490fe0-5b62-11ea-b3eb-f557966b7cbf",
+      "name": "Test Sort",
+      "board": "_________",
+      "state": "running",
+      "createdAt": 1583029014494,
+      "updatedAt": 1583029014494
+    }
+  ]
+}
