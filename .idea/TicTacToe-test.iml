@@ -5,8 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/jest" level="application" />
-    <orderEntry type="library" name="@types/react" level="application" />
-    <orderEntry type="library" name="@types/enzyme" level="application" />
-    <orderEntry type="library" name="@types/moxios" level="application" />
+    <orderEntry type="library" name="@types/supertest" level="application" />
   </component>
 </module>

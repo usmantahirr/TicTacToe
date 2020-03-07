@@ -1,11 +1,11 @@
-var express = require("express");
-var path = require("path");
-var cookieParser = require("cookie-parser");
-var logger = require("morgan");
+const express = require("express");
+const path = require("path");
+const cookieParser = require("cookie-parser");
+const logger = require("morgan");
 const cors = require('cors');
-var gamesRouter = require("./routes/games");
+const gamesRouter = require("./routes/games");
 
-var app = express();
+const app = express();
 
 app.use(cors());
 app.use(logger("dev"));

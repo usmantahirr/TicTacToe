@@ -50,10 +50,15 @@
     {
       "id": "da3250a0-5b60-11ea-980c-9bde846347a6",
       "name": "Another Board 2",
-      "board": "_________",
-      "state": "running",
+      "board": "oxoxxooxx",
+      "state": "x_won",
       "createdAt": 1583028212394,
-      "updatedAt": 1583028212394
+      "updatedAt": 1583584275207,
+      "combo": [
+        "1",
+        "4",
+        "7"
+      ]
     },
     {
       "id": "257bff20-5b61-11ea-980c-9bde846347a6",
@@ -74,10 +79,15 @@
     {
       "id": "b8490fe0-5b62-11ea-b3eb-f557966b7cbf",
       "name": "Test Sort",
-      "board": "_________",
-      "state": "running",
+      "board": "o_xxx_ooo",
+      "state": "o_won",
       "createdAt": 1583029014494,
-      "updatedAt": 1583029014494
+      "updatedAt": 1583416878170,
+      "combo": [
+        "6",
+        "7",
+        "8"
+      ]
     }
   ]
 }

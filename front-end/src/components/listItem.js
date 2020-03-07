@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { ArrowRight } from "react-feather";
-import AppContext from "../context/app";
+import AppContext, { useAppContext } from "../context/app";
 import IconButton from "./icon";
 import { COLORS } from "../config";
 
@@ -23,24 +23,23 @@ const Time = styled.span`
   font-size: 12px;
 `;
 
-const ListItem = ({ game, ...props }) => (
-  <AppContext.Consumer {...props}>
-    {({ activeGame, setActiveGame }) => (
-      <StyledItem className={game.id === activeGame.id && "active"}>
-        {game.name}
-        <Time>{new Date(game.createdAt).toLocaleDateString()}</Time>
-        <Time>{new Date(game.createdAt).toLocaleTimeString()}</Time>
-        <div style={{ float: "right" }}>
-          <IconButton
-            style={{ marginRight: "5px" }}
-            onClick={() => setActiveGame(game)}
-          >
-            <ArrowRight size={15} />
-          </IconButton>
-        </div>
-      </StyledItem>
-    )}
-  </AppContext.Consumer>
-);
+const ListItem = ({ game, ...props }) => {
+  const { activeGame, setActiveGame } = useAppContext(AppContext);
+  return (
+    <StyledItem className={activeGame && game.id === activeGame.id && "active"} {...props}>
+      <span>{game.name}</span>
+      <Time>{new Date(game.createdAt).toLocaleDateString()}</Time>
+      <Time>{new Date(game.createdAt).toLocaleTimeString()}</Time>
+      <div style={{ float: "right" }}>
+        <IconButton
+          style={{ marginRight: "5px" }}
+          onClick={() => setActiveGame(game)}
+        >
+          <ArrowRight size={15} />
+        </IconButton>
+      </div>
+    </StyledItem>
+  );
+};
 
 export default ListItem;

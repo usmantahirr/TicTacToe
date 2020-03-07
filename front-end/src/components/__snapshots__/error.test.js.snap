@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Should render passed prop correctly 1`] = `
+<styled.div>
+  Error Message
+</styled.div>
+`;

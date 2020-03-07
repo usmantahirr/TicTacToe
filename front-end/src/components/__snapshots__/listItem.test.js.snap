@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Item Should render correctly 1`] = `
+<styled.div
+  className="active"
+>
+  <span>
+    example
+  </span>
+  <styled.span>
+    5/5/2020
+  </styled.span>
+  <styled.span>
+    12:00:00 AM
+  </styled.span>
+  <div
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+  >
+    <IconButton
+      onClick={[Function]}
+      style={
+        Object {
+          "marginRight": "5px",
+        }
+      }
+    >
+      <ArrowRight
+        color="currentColor"
+        size={15}
+      />
+    </IconButton>
+  </div>
+</styled.div>
+`;
